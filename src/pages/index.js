@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section, GoogleMap, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
-import { MdArrowDownward, MdLabelOutline } from "react-icons/md";
+import { MdArrowDownward, MdLabelOutline, MdMailOutline } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -307,7 +307,7 @@ export default (() => {
 			<Components.EmbedHTML />
 		</Section>
 		<Section background="--color-light" padding="60px 0" sm-padding="40px 0" quarkly-title="Social Media">
-			<SocialMedia telegram="https://t.me/SecondChance_TecnoAyuda" instagram="http://instagram.com/secondchance.tecnoayuda" whatsapp="https://api.whatsapp.com/message/ITNHZVQCOJ2IH1" google="secondchance.techservice@gmail.com">
+			<SocialMedia telegram="https://t.me/SecondChance_TecnoAyuda" instagram="http://instagram.com/secondchance.tecnoayuda" whatsapp="https://api.whatsapp.com/message/ITNHZVQCOJ2IH1" color="#7878B6">
 				<Override
 					slot="link"
 					border-radius="50%"
@@ -319,6 +319,7 @@ export default (() => {
 					border-color="#7878B6"
 				/>
 			</SocialMedia>
+			<Icon category="md" icon={MdMailOutline} color="#7878B6" align-self="center" />
 		</Section>
 		<Link
 			font={"--capture"}
