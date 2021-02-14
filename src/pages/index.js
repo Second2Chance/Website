@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section, GoogleMap, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
-import { MdArrowDownward, MdLabelOutline, MdMailOutline } from "react-icons/md";
+import { MdArrowDownward, MdLabelOutline } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -318,13 +318,6 @@ export default (() => {
 					margin="0 8px"
 				/>
 			</SocialMedia>
-			<Icon
-				category="md"
-				icon={MdMailOutline}
-				color="#7878B6"
-				align-self="center"
-				size="24px"
-			/>
 		</Section>
 		<Link
 			font={"--capture"}
