@@ -307,7 +307,7 @@ export default (() => {
 			<Components.EmbedHTML />
 		</Section>
 		<Section padding="60px 0" sm-padding="40px 0" quarkly-title="Social Media">
-			<SocialMedia telegram="https://t.me/SecondChance_TecnoAyuda" instagram="https://www.instagram.com/secondchance.tecnoayuda/" whatsapp="https://wa.me/message/ITNHZVQCOJ2IH1)">
+			<SocialMedia telegram="https://t.me/SecondChance_TecnoAyuda" instagram="https://www.instagram.com/secondchance.tecnoayuda/" whatsapp="https://wa.me/message/ITNHZVQCOJ2IH1">
 				<Override
 					slot="link"
 					border-radius="50%"
