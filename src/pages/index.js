@@ -306,8 +306,8 @@ export default (() => {
 			</Text>
 			<Components.EmbedHTML />
 		</Section>
-		<Section background="--color-light" padding="60px 0" sm-padding="40px 0" quarkly-title="Social Media">
-			<SocialMedia telegram="https://t.me/SecondChance_TecnoAyuda" instagram="http://instagram.com/secondchance.tecnoayuda" whatsapp="https://api.whatsapp.com/message/ITNHZVQCOJ2IH1" color="#7878B6">
+		<Section padding="60px 0" sm-padding="40px 0">
+			<SocialMedia telegram="https://t.me/SecondChance_TecnoAyuda" instagram="https://www.instagram.com/secondchance.tecnoayuda/" whatsapp="https://wa.me/message/ITNHZVQCOJ2IH1)">
 				<Override
 					slot="link"
 					border-radius="50%"
@@ -316,10 +316,15 @@ export default (() => {
 					background="transparent"
 					hover-background="transparent"
 					margin="0 8px"
-					border-color="#7878B6"
 				/>
 			</SocialMedia>
-			<Icon category="md" icon={MdMailOutline} color="#7878B6" align-self="center" />
+			<Icon
+				category="md"
+				icon={MdMailOutline}
+				color="#7878B6"
+				align-self="center"
+				size="24px"
+			/>
 		</Section>
 		<Link
 			font={"--capture"}
